@@ -42,3 +42,12 @@ figure {
 figcaption{
     margin-top: 30px;
 }
+
+.contato_info{
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.contato_subtitulo{
+    display: inline;
+}
