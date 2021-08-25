@@ -44,10 +44,29 @@ figcaption{
 }
 
 .contato_info{
-    margin: 16px 0 24px;
+    margin: 15px 0 25px;
     padding-left: 32px;
 }
 
 .contato_subtitulo{
     display: inline;
+}
+
+.contato_secao{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+.contato_secao--telefone{
+    margin-left: 32px;
+}
+
+.contato_info-titulo{
+    display: inline;
+}
+
+.contato_info-descricao{
+    display: inline;
+    margin-left: 16px;
 }
