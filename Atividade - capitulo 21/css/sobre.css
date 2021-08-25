@@ -48,6 +48,15 @@ figcaption{
     padding-left: 32px;
 }
 
+.contato__info-titulo{
+    display: inline;
+}
+
+.contato__info-descricao{
+    display: inline;
+    margin-left: 10px;
+}
+
 .contato__subtitulo{
     display: inline;
 }
