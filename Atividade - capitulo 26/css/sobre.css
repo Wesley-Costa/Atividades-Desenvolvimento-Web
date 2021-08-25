@@ -1,5 +1,6 @@
 body {
-    width: 940px;
+    width: 80%;
+    max-width: 940px;
     margin-right: auto; /* adicionando como auto pq a questão não fala a quantidade de pixels */
     margin-left: auto;
     font-family: "Helvetica", "Lucida Grande", sans-serif;
@@ -39,6 +40,8 @@ figure {
     text-align: center;
     background-color: whitesmoke;
     border: 1px solid lightgrey;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 figcaption{
