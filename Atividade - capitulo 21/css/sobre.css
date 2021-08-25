@@ -1,0 +1,53 @@
+body {
+    width: 940px;
+    margin-right: auto; /* adicionando como auto pq a questão não fala a quantidade de pixels */
+    margin-left: auto;
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    color: #3D3D3D;
+}
+
+.titulo {
+    padding: 10px;
+    background-color: #E1EDF2;
+    font-size: 30px;
+}
+
+.subtitulo {
+    border-bottom: 2px solid black;
+}
+
+.matriz-musicdot{
+   margin-left: auto;
+   margin-right: auto; 
+   width: 550px;
+}
+
+.familia-tupfeln{
+    width: 275px;
+    float: right;
+}
+
+figure img{
+    width: 100%;
+}
+
+figure {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+}
+
+figcaption{
+    margin-top: 30px;
+}
+
+.contato__info{
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.contato__subtitulo{
+    display: inline;
+}
