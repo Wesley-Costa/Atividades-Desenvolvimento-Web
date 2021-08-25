@@ -60,3 +60,13 @@ figcaption{
 .contato__subtitulo{
     display: inline;
 }
+
+.contato__secao{
+    display: inline-block;
+    margin-left: 16px;
+    vertical-align:  top;
+}
+
+.contato__secao--telefone{
+    margin-left: 32px;
+}
