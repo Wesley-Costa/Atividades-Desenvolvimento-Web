@@ -28,3 +28,21 @@
     padding: 1.5em 0;
     width: 14.5em;
 }
+
+@media (min-width: 640px){
+    .cabecalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5%;
+    }
+    
+    .cabecalho__menu{
+        background-color: transparent;
+    }
+    
+    .cabecalho__logo{
+        padding: 3em 0;
+        margin-left: 15%; /*espaçamento para ficar parecido com o que está no enunciado do exercício*/
+    }
+}
