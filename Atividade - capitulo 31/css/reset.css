@@ -46,7 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*
+-A fonte padrão de todo texto na página	pela fonte Montserrat	
+-Todo texto	na página por padrão terá a cor #2e4255
+*/
 body {
   font-family: 'Montserrat', sans-serif;
   color: #2e4255;
