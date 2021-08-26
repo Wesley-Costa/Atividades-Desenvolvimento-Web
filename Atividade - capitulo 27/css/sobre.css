@@ -88,3 +88,41 @@ figcaption{
     margin-left: em;
     display: inline;
 }
+
+@media(max-width: 342px){
+    .contato__info-descricao{
+        margin-left: 1em;
+        display: block;
+    }
+}
+
+@media(max-width: 446px){
+    .contato__info{
+        padding-left: 5px;
+        border-left: 2px solid ligthgray;
+        font-size: .92em;
+    }
+
+    .contato__subtitulo{
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .rodape{
+        font-size: .92em;
+    }
+}
+
+@media(max-width: 622px){
+    .familia-tupfeln{
+        margin: 0 auto;
+        float: none; /*fixando a figure*/
+    }
+}
+
+@media(max-width: 850px){
+    .contato__secao{
+        display: block;
+        margin-left: 1em;
+    }
+}
