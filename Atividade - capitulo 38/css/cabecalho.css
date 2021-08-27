@@ -46,3 +46,22 @@
         margin-left: 15%; /*espaçamento para ficar parecido com o que está no enunciado do exercício*/
     }
 }
+
+@media (min-width: 770px){
+    .cabecalho__item--matricular{
+        margin-left: 1.42em;
+        background-color: #e93d50;
+        border-radius: 6px;
+    }
+
+    .cabecalho__item--matricular a{
+        padding: 1.8em 3.5em;
+    }
+}
+
+@media (min-width: 1066px){
+    .cabecalho{
+        padding-left: calc((100% - 960px)/2);
+        padding-right: calc((100% - 960px)/2);
+    }
+}
