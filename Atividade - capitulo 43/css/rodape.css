@@ -33,15 +33,48 @@
 
 .rodape__item-lista{
     font-weight: 500;
-    margin: 0.5em 0;
-}
-
-.rodape__secao + .rodape__secao{
-    margin-top: 1.5em;
+    margin: 0.7em 0;
 }
 
 .rodape__infos.empresa{
     line-height: 1.5;
 }
 
+@media (min-width: 640px){
+    .rodape{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
 
+    .rodape__secao--sobre{
+        width: 45%;
+        order: 3;
+        margin-top: 2em;
+    }
+
+    .rodape__secao--curso{
+        width: 45%;
+        order: 1;
+        margin: 0; 
+    }
+
+    .rodape__secao--link{
+        width: 45%;
+        order: 2;
+        margin: 0; 
+    }
+
+    .rodape__secao--newsletter{
+        width: 45%;
+        order: 4;
+        margin-top: 2em; 
+    }
+}
+
+@media (max-width: 640px){
+    .rodape_secao + .rodape_secao{
+        margin-top: 2em
+    }
+}
