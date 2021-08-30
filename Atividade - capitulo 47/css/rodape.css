@@ -1,0 +1,108 @@
+.rodape{
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.rodape__logo{
+    width: 11em;
+    margin-bottom: 1em;
+}
+
+.rodape__titulo{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.rodape__lista-midias-sociais{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.rodape__item-midias-sociais{
+    width: 3em;
+    margin: 0 .3em;
+}
+
+.rodape__item-midias-sociais img{
+    width: 100%;
+}
+
+.rodape__item-lista{
+    font-weight: 500;
+    margin: 0.7em 0;
+}
+
+.rodape__infos.empresa{
+    line-height: 1.5;
+}
+
+@media (min-width: 640px) and (max-width: 1200px){
+    .rodape{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
+
+    .rodape__secao--sobre{
+        width: 45%;
+        order: 3;
+        margin-top: 2em;
+    }
+
+    .rodape__secao--curso{
+        width: 45%;
+        order: 1;
+        margin: 0; 
+    }
+
+    .rodape__secao--link{
+        width: 45%;
+        order: 2;
+        margin: 0; 
+        text-align: left;
+    }
+
+    .rodape__secao--newsletter{
+        width: 45%;
+        order: 4;
+        margin-top: 2em; 
+    }
+}
+
+@media (min-width: 1200px){
+    .rodape{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .rodape__secao{
+        margin-top: 0;
+    }
+
+    .rodape__secao + .rodape__secao{
+        margin-left: 2em;
+    }
+
+    .rodape__titulo{
+        font-size: 1em;
+    }
+
+    .rodape__lista-midias-sociais{
+        justify-content: left;
+    }
+
+}
+
+@media (max-width: 640px){
+    .rodape_secao + .rodape_secao{
+        margin-top: 2em
+    }
+}
