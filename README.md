@@ -1,2 +1,2 @@
 # Atividades-Desenvolvimento-Web
- Repositório para atividades de Desenvolvimento Web
+ Repositório para atividades da matéria de Desenvolvimento Web
